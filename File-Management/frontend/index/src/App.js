@@ -62,7 +62,6 @@ function App() {
       });
   }
 
-
   useEffect(() => {
     fetchFiles();
   }, [filesEndpoint]);
